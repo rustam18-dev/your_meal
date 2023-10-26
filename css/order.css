@@ -143,3 +143,73 @@
   line-height: 14px;
   color: #B1B1B1;
 }
+
+.order__empty {
+
+}
+
+
+@media (min-width: 768px) {
+  .order {
+    width: 145px;
+    transition: width 0.06s ease-in-out;
+  }
+
+  .order.order_open {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .order {
+    width: 300px;
+  }
+
+  .order__wrapper {
+    position: unset;
+    padding: 24px 16px;
+  }
+
+  .order__wrap-title {
+    margin-bottom: 12px;
+  }
+
+  .order__title {
+    font-size: 24px;
+  }
+
+  .order__count {
+    width: 41px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  .order__item {
+    padding: 15px 0;
+  }
+
+  .order__total {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .order__submit {
+    height: 40px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .order__wrap_list {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .order__close {
+    display: none;
+  }
+
+  .order__appeal {
+    font-size: 12px;
+  }
+}
